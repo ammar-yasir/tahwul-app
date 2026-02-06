@@ -2,7 +2,7 @@ import { Badge } from "../../../components/Badge/Badge";
 import Card from "../../../components/Card/Card";
 import DataTable from "../../../components/DataTable";
 import type { Column } from "../../../components/DataTable/DataTable.types";
-import { RecentActivites } from "../../Dashboard/RecentActivites";
+import RecentActivites from "../../dashboard/RecentActivites";
 import Comments from "./Comments";
 import { STATUS_MAP, type IDocument, type StatusType } from "./types";
 

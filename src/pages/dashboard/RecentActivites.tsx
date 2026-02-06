@@ -29,7 +29,7 @@ const ActivityItem:FC<Activity> = ({ title, time }) => (
   </div>
 );      
 
-export const RecentActivites = () => {
+const RecentActivites = () => {
   return (
     <Card
       cardTitle="Recent Activities"
@@ -44,3 +44,5 @@ export const RecentActivites = () => {
     </Card>
   );
 };
+
+export default RecentActivites;

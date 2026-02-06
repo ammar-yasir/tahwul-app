@@ -3,7 +3,7 @@ import ComplianceScore from "./ComplianceScore";
 import MonthlyPerformance from "./MonthlyPerformance";
 import ProgressStatus from "./ProgressStatus";
 import ProjectTimeline from "./ProjectTimeline";
-import { RecentActivites } from "./RecentActivites";
+import RecentActivites from "./RecentActivites";
 import StatsSummary from "./StatsSummary";
 import { TopLeaders } from "./TopLeaders";
 
