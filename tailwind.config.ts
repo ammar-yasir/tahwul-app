@@ -10,6 +10,7 @@ export default {
       },
       text: {
         10: "10px",
+        44: "44px",
       },
       colors: {
         "background": "#F5F8FA",

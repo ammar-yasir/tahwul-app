@@ -15,7 +15,7 @@ const ProjectTimeline = () => {
     <Card widthClass="w-full" heightClass="h-220 xl:h-[159px]">
       <div className="flex flex-col gap-8">
         <div className="flex justify-between">
-          <h3 className="text-primary font-bold capitalize">
+          <h3 className="text-primary font-bold leading-4 capitalize">
             Project Timeline
           </h3>
           <select

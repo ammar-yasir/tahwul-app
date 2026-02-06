@@ -17,15 +17,15 @@ const activities: Activity[] = [
   },
 ];
 
-const ActivityItem:FC<Activity> = ({ title, time }) => (
-  <div className="flex gap-2 items-center border-t border-gray-100 py-3.5">
-    <div className="min-w-1.5 min-h-1.5 bg-accent-red rounded-full" />
+const ActivityItem: FC<Activity> = ({ title, time }) => (
+  <div className="flex gap-2.25 justify-between items-center border-t border-gray-100 py-3.5">
+    <div className="min-w-1.5 h-1.5 bg-accent-red rounded-full" />
     <div className="text-base text-primary font-medium leading-5.5 letter-spacing-0 align-middle">
       {title}
     </div>
-    <span className="min-w-15 text-xs font-normal leading-4 text-secondary capitalize">
+    <p className="min-w-15 text-xs font-normal leading-4 text-secondary capitalize">
       {time}
-    </span>
+    </p>
   </div>
 );      
 
@@ -33,7 +33,7 @@ const RecentActivites = () => {
   return (
     <Card
       cardTitle="Recent Activities"
-      titleFontSizeClass="text-base mb-2.5"
+      titleFontSizeClass="text-base font-bold leading-4 mb-3.5"
       widthClass="w-full xl:max-w-[368px] "
       heightClass="h-full xl:max-h-[283px]"
       className="px-4 pt-3.5"

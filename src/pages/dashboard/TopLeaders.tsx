@@ -25,7 +25,7 @@ const LeaderProfileItem: FC<LeaderProfileItemProps> = ({
   designation,
   proficiency,
 }) => (
-  <div className="flex gap-2 items-center border-t first:border-t-0 border-gray-100 pt-4">
+  <div className="flex gap-[10.89px] items-center border-t first:border-t-0 border-gray-100 pt-[16.05px]">
     <img
       className="w-[47.1px] h-[47.1px]"
       src="/assets/images/common/profile-pic.svg"
@@ -33,8 +33,8 @@ const LeaderProfileItem: FC<LeaderProfileItemProps> = ({
     />
     <div className="w-full flex justify-between items-center">
       <div className="flex flex-col gap-0.5">
-        <h4 className="text-primary text-base font-medium">{name}</h4>
-        <h4 className="text-secondary text-base font-medium">{designation}</h4>
+        <p className="text-primary text-base font-medium leading-5.5">{name}</p>
+        <p className="text-secondary text-base font-medium leading-5.5">{designation}</p>
       </div>
       <span className="text-base text-primary font-bold">{proficiency}</span>
     </div>
@@ -45,12 +45,12 @@ export const TopLeaders = () => {
   return (
     <Card
       cardTitle="Top Performing Perspective Leaders"
-      titleFontSizeClass="text-base"
-      widthClass="w-full xl:max-w-[368px] "
-      heightClass="h-full xl:max-h-[283px]"
-      className="px-4 pt-3.5"
+      titleFontSizeClass="text-base font-bold leading-4"
+      widthClass="w-full xl:max-w-92"
+      heightClass="h-full xl:max-h-70.75"
+      className="px-4 pt-6"
     >
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-[16.4px]">
         {leaders?.map((leader, index) => (
           <LeaderProfileItem
             key={index}

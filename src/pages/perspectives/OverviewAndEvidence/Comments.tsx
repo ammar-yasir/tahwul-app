@@ -29,11 +29,11 @@ const CommentItem: FC<Comment> = ({ name, desc, date }) => (
             {name?.split("")?.[0]}
           </span>
         </div>
-        <h4 className="text-primary text-sm font-bold capitalize">{name}</h4>
+        <h4 className="text-primary text-sm leading-4 font-bold capitalize">{name}</h4>
       </div>
-      <p className="text-secondary text-sm font-normal">{date}</p>
+      <p className="text-secondary text-sm leading-4 font-normal">{date}</p>
     </div>
-    <p className="text-primary text-sm font-normal capitalize">{desc}</p>
+    <p className="text-primary text-sm leading-5 font-normal capitalize">{desc}</p>
   </Card>
 );
 
@@ -41,6 +41,7 @@ const Comments = () => {
   return (
     <Card
       cardTitle="Comments"
+      titleFontSizeClass="leading-4"
       widthClass="w-full"
       heightClass="h-full"
       padding="p-6"
@@ -59,7 +60,7 @@ const Comments = () => {
           src="/assets/icons/common/send.svg"
           alt="Send icon"
         />
-        <span className="text-white text-base font-normal">Post Comment</span>
+        <span className="text-white text-base font-normal leading-4">Post Comment</span>
       </button>
     </Card>
   );

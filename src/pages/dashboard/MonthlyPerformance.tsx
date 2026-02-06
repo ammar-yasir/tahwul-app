@@ -20,12 +20,12 @@ const MonthlyPerformance = () => {
   return (
     <Card
       cardTitle="12-Month Performance"
-      titleFontSizeClass="text-base mb-2.5"
+      titleFontSizeClass="text-base font-bold leading-4 mb-6.5"
       widthClass="w-full"
       heightClass="h-full"
-      className="px-4 pt-3.5"
+      className="px-4 pt-6.5 pb-6.25"
     >
-      <div className="w-full h-64.5">
+      <div className="w-full h-56.75">
         <BarChart data={performanceData} />
       </div>
     </Card>

@@ -9,7 +9,7 @@ const Tabs: FC<TabsProps> = ({ tabs, activeTab, onTabChange }) => {
           key={tab.id}
           onClick={() => onTabChange(tab.id)}
           className={`
-              text-sm font-normal transition-all duration-200 rounded-lg px-5.25 py-2 cursor-pointer
+              text-sm font-normal leading-5 transition-all duration-200 rounded-lg px-5.25 py-2 cursor-pointer
               ${
                 activeTab === tab.id
                   ? "bg-white text-primary"

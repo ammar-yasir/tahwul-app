@@ -47,7 +47,7 @@ const OverviewTab = () => {
             {/* Left side */}
             <div className="w-1/4 min-w-full xl:min-w-[181.71px] xl:max-w-[181.71px] pl-6 pr-2">
               <div className="h-full min-h-10 bg-gray-300 rounded-10 flex justify-start p-4">
-                <span className="text-base font-normal text-primary capitalize align-middle">
+                <span className="text-base font-normal text-primary capitalize leading-4 align-middle">
                   {item.title}
                 </span>
               </div>
@@ -55,7 +55,7 @@ const OverviewTab = () => {
             {/* Right side */}
             <div className="w-full pl-2 pr-4">
               <div className="h-full min-h-10 bg-background rounded-10 flex justify-start p-4">
-                <span className="text-base font-normal text-primary capitalize align-middle">
+                <span className="text-base font-normal text-primary capitalize leading-6 align-middle">
                   {item.description}
                 </span>
               </div>

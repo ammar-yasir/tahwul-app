@@ -24,8 +24,8 @@ const LeaderProfileItem: FC<LeaderProfileItemProps> = ({
       alt="Leader Pic"
     />
     <div className="flex flex-col gap-2">
-      <h4 className="text-primary text-base font-medium">{name}</h4>
-      <h4 className="text-secondary text-base font-medium">{designation}</h4>
+      <h4 className="text-primary text-base font-medium leading-5.5">{name}</h4>
+      <h4 className="text-secondary text-base font-medium leading-5.5">{designation}</h4>
     </div>
   </div>
 );
@@ -34,7 +34,7 @@ const Leaders = () => {
   return (
     <Card widthClass="w-full" heightClass="min-h-32.5" padding="p-4">
       <div className="flex flex-col gap-4">
-        <h3 className="text-primary text-base font-bold">Leaders</h3>
+        <h3 className="text-primary text-base font-bold leading-4">Leaders</h3>
         <div className="flex flex-col lg:flex-row gap-4">
           {leaders?.map((leader, index) => (
             <LeaderProfileItem

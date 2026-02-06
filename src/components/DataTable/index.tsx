@@ -23,7 +23,7 @@ export function DataTable<T>({ columns, data, onSort }: DataTableProps<T>) {
               className="hover:bg-gray-100-transparent transition-colors"
             >
               {columns.map((col) => (
-                <td key={col.key as string} className="px-4 py-6 text-sm text-primary font-normal text-center">
+                <td key={col.key as string} className="px-4 py-6 text-sm text-primary font-normal leading-5 text-center">
                   {col.render 
                     ? col.render(row[col.key as keyof T], row) 
                     : (row[col.key as keyof T] as React.ReactNode)

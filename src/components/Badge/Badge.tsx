@@ -30,6 +30,7 @@ export const Badge: React.FC<StatusBadgeProps> = ({ variant, label, className = 
         items-center 
         justify-center
         whitespace-nowrap
+        leading-5
         ${currentStyle} 
         ${className}
       `}

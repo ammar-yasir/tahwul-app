@@ -53,9 +53,7 @@ const columns: Column<IDocument>[] = [
 const EvidenceTab = () => (
   <>
     <Card widthClass="w-full" heightClass="h-full" padding="p-4">
-      <div className="flex justify-center items-center">
-        <DataTable<IDocument> columns={columns} data={data} />
-      </div>
+      <DataTable<IDocument> columns={columns} data={data} />
     </Card>
     <div className="flex flex-col xl:flex-row gap-4">
       <Comments />

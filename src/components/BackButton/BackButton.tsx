@@ -9,7 +9,7 @@ const BackButton: React.FC<BackButtonProps> = ({ label }) => {
         alt="Back"
         className="w-4 h-4"
       />
-      <span className="font-bold text-base text-primary">{label}</span>
+      <span className="font-bold text-base text-primary leading-4">{label}</span>
     </Link>
   );
 };
