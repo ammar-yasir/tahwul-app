@@ -1,7 +1,7 @@
 # React + TypeScript + Vite
 
 ## Live Demo
-🔗 https://tahwul-kvwwut17o-ammaryasirs-projects.vercel.app
+🔗 https://tahwul-app.vercel.app
 
 #### 📊 Compliance Dashboard UI — Frontend Implementation
 #### Overview
