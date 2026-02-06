@@ -23,7 +23,7 @@ const ActivityItem: FC<Activity> = ({ title, time }) => (
     <div className="text-base text-primary font-medium leading-5.5 letter-spacing-0 align-middle">
       {title}
     </div>
-    <p className="min-w-15 text-xs font-normal leading-4 text-secondary capitalize">
+    <p className="min-w-16 text-xs font-normal leading-4 text-secondary capitalize">
       {time}
     </p>
   </div>
