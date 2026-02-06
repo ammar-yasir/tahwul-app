@@ -10,7 +10,7 @@ const AuditReadiness = () => {
   return (
     <Card
       cardTitle="Audit Readiness"
-      titleFontSizeClass="text-base font-bold leading-4"
+      titleClass="text-base font-bold leading-4"
       widthClass="w-full xl:max-w-[368px]"
       heightClass="h-full xl:max-h-[322.09px]"
       className="flex flex-col py-6 px-4"

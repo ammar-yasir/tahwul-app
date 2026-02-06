@@ -20,7 +20,7 @@ const MonthlyPerformance = () => {
   return (
     <Card
       cardTitle="12-Month Performance"
-      titleFontSizeClass="text-base font-bold leading-4 mb-6.5"
+      titleClass="text-base font-bold leading-4 mb-6.5"
       widthClass="w-full"
       heightClass="h-full"
       className="px-4 pt-6.5 pb-6.25"

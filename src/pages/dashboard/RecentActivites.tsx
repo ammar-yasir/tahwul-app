@@ -33,7 +33,7 @@ const RecentActivites = () => {
   return (
     <Card
       cardTitle="Recent Activities"
-      titleFontSizeClass="text-base font-bold leading-4 mb-3.5"
+      titleClass="text-base font-bold leading-4 mb-3.5"
       widthClass="w-full xl:max-w-[368px] "
       heightClass="h-full xl:max-h-[283px]"
       className="px-4 pt-3.5"

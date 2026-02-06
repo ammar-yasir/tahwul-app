@@ -4,7 +4,7 @@ export interface CardProps {
   children: React.ReactNode;
   cardBgColorClass?: string;
   cardTitle?: string;
-  titleFontSizeClass?: string;
+  titleClass?: string;
   padding?: string;
   className?: string;
 }

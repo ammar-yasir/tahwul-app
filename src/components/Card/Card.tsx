@@ -7,7 +7,7 @@ const Card: FC<CardProps> = ({
   children,
   cardBgColorClass = "bg-white",
   cardTitle,
-  titleFontSizeClass = "text-lg",
+  titleClass = "text-lg",
   padding = "p-4",
   className = "",
 }) => {
@@ -17,7 +17,7 @@ const Card: FC<CardProps> = ({
     >
       {cardTitle && (
         <h3
-          className={`${titleFontSizeClass} text-primary font-bold capitalize`}
+          className={`${titleClass} text-primary font-bold capitalize`}
         >
           {cardTitle}
         </h3>

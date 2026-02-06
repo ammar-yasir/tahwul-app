@@ -41,7 +41,7 @@ const Comments = () => {
   return (
     <Card
       cardTitle="Comments"
-      titleFontSizeClass="leading-4"
+      titleClass="leading-4"
       widthClass="w-full"
       heightClass="h-full"
       padding="p-6"

@@ -45,7 +45,7 @@ export const TopLeaders = () => {
   return (
     <Card
       cardTitle="Top Performing Perspective Leaders"
-      titleFontSizeClass="text-base font-bold leading-4"
+      titleClass="text-base font-bold leading-4"
       widthClass="w-full xl:max-w-92"
       heightClass="h-full xl:max-h-70.75"
       className="px-4 pt-6"
