@@ -18,7 +18,7 @@ const ProgressBar = ({ milestones }: ProgressBarProps) => {
         return (
           <div
             key={index}
-            className="absolute top-1/2 rotate-270 xl:rotate-0 flex flex-col items-center"
+            className="absolute -top-6.75 xl:top-1/2 rotate-270 xl:rotate-0 flex flex-col items-center"
             style={{ left: `${(index / (totalMilestones - 0.5)) * 100}%` }}
           >
             {/* The Circle */}
