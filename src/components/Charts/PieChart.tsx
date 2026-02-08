@@ -1,6 +1,6 @@
 import type { FC } from "react";
 import type { PieChartProps } from "./PieChart.types";
-import { PieChart as PieChartComponent, Pie, Cell, ResponsiveContainer } from 'recharts';
+import { PieChart as PieChartComponent, Pie, Cell, ResponsiveContainer, Tooltip } from 'recharts';
 
 const PieChart: FC<PieChartProps> = ({
   data,
@@ -34,6 +34,7 @@ const PieChart: FC<PieChartProps> = ({
         >
           <Cell fill={fillColor} />
           {trackColor && <Cell fill={trackColor} />}
+          <Tooltip />
         </Pie>
       </PieChartComponent>
     </ResponsiveContainer>

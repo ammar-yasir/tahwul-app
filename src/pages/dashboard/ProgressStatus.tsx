@@ -67,7 +67,7 @@ const categoryData: CategoryData[] = [
   {
     id: 3,
     title: "Operations And Execution",
-    progress: "%80.00",
+    progress: "80.00%",
     cards: [
       { id: "oe-1", name: "Business Processes", milestones: [{id: 1, status: "success"}, {id: 2, status: "warning"}, {id: 3, status: "warning"}, {id: 4, status: "success"}] }
     ]
